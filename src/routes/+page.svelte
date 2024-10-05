@@ -46,7 +46,6 @@
 
 <style>
 	/* @import '../app.css'; */
-	@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 	section {
 		height: calc(100vh - 72px);
@@ -80,6 +79,15 @@
 		padding: 0 3em;
 		width: 100%;
 	}
+	input:is(:focus-visible) {
+		border-color: #dc0000;
+	}
+	input:focus-visible {
+		outline: 1px solid #dc0000 !important;
+		/* outline: none !important; */
+		/* border: 1px solid red; */
+		box-shadow: 0 0 10px #dc0000;
+	}
 	label[style]::before {
 		content: '';
 		width: 60px;
@@ -96,6 +104,13 @@
 		width: fit-content;
 		padding: 1em 2em;
 		cursor: pointer;
+		transition: box-shadow 250ms;
+	}
+	button:hover {
+		box-shadow: 0 0 5px #dc0000;
+	}
+	button:active {
+		box-shadow: 0 0 0 #dc0000;
 	}
 	fieldset button {
 		width: 100%;
