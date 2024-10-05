@@ -8,10 +8,10 @@
 	</a>
 	<form action="POST" on:submit|preventDefault>
 		<fieldset>
-			<label for="" style="--input-icon: url('./tel.svg')">
+			<label for="" style="--input-icon: url('../../../tel.svg')">
 				<input name="tel" type="tel" placeholder="Введите номер телефона" pattern="\d" />
 			</label>
-			<label for="" style="--input-icon: url('./password.svg')">
+			<label for="" style="--input-icon: url('../../../password.svg')">
 				<input name="password" type="password" placeholder="Введите пароль" />
 			</label>
 			<label for="">
