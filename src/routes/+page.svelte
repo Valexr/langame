@@ -3,7 +3,7 @@
 </script>
 
 <section>
-	<a href="_#" class="logo">
+	<a href="#" class="logo">
 		<img src="logo.svg" alt="" />
 	</a>
 	<form action="POST" on:submit|preventDefault>
@@ -15,33 +15,32 @@
 				<input name="password" type="password" placeholder="Введите пароль" />
 			</label>
 			<label for="">
-				<a href="">Забыли пароль</a>
+				<a href="#">Забыли пароль</a>
 			</label>
 		</fieldset>
 		<fieldset>
 			<button>Войти</button>
 		</fieldset>
 	</form>
-	<p>Если у вас ещё нет аккаунта<br /><a href=""><strong>Зарегистрируйтесь</strong></a></p>
-	<p></p>
+	<p>Если у вас ещё нет аккаунта<br /><a href="#"><strong>Зарегистрируйтесь</strong></a></p>
 	<p>
 		Установите приложение<br /><br />
-		<a href=""><img src="app-store.svg" alt="" /></a>
-		<a href=""><img src="google-play.svg" alt="" /></a>
+		<a href="#"><img src="app-store.svg" alt="" /></a>
+		<a href="#"><img src="google-play.svg" alt="" /></a>
 	</p>
 </section>
 
 <footer>
 	<menu>
-		<a href="">Информация</a>
-		<a href="">Вакансии</a>
-		<a href="">Помощь</a>
-		<a href="">Конфиденциальность</a>
-		<a href="">Правила</a>
-		<a href="">FAQ</a>
-		<a href="">Прайс-лист</a>
+		<a href="#">Информация</a>
+		<a href="#">Вакансии</a>
+		<a href="#">Помощь</a>
+		<a href="#">Конфиденциальность</a>
+		<a href="#">Правила</a>
+		<a href="#">FAQ</a>
+		<a href="#">Прайс-лист</a>
 	</menu>
-	<a href=""><img src="powered.svg" alt="" /></a>
+	<a href="#"><img src="powered.svg" alt="" /></a>
 </footer>
 
 <style>
