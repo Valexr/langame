@@ -48,7 +48,7 @@
 	/* @import '../app.css'; */
 
 	section {
-		height: calc(100vh - 72px);
+		height: calc(100vh - 75px);
 		display: grid;
 		text-align: center;
 		place-content: center;
