@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     border-radius: 50px;
     margin: 0;
-    background-image: url('lg.svg'), url('lg.svg');
+    background-image: url('./lg.svg'), url('./lg.svg');
     background-position: calc(100% + 125px) -175px, -125px calc(100% + 200px);
     background-repeat: no-repeat, no-repeat;
     background-size: 300px;
