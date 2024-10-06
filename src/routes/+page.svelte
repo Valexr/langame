@@ -1,8 +1,9 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import '../app.css';
 </script>
 
-<section>
+<main>
 	<a href="#" class="logo">
 		<img src="logo.svg" alt="" />
 	</a>
@@ -28,7 +29,7 @@
 		<a href="#"><img src="app-store.svg" alt="" /></a>
 		<a href="#"><img src="google-play.svg" alt="" /></a>
 	</p>
-</section>
+</main>
 
 <footer>
 	<menu>
@@ -46,7 +47,7 @@
 <style>
 	/* @import '../app.css'; */
 
-	section {
+	main {
 		height: calc(100vh - 75px);
 		display: grid;
 		text-align: center;
