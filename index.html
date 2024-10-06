@@ -2,31 +2,43 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="/langame/favicon.png" />
+		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link rel="modulepreload" href="/langame/_app/immutable/entry/start.9FJQqDjm.js">
-		<link rel="modulepreload" href="/langame/_app/immutable/chunks/entry.WMqcHcgr.js">
-		<link rel="modulepreload" href="/langame/_app/immutable/chunks/scheduler.BoIwsIsz.js">
-		<link rel="modulepreload" href="/langame/_app/immutable/entry/app.DNOIRRyJ.js">
-		<link rel="modulepreload" href="/langame/_app/immutable/chunks/index.DJfPvLRU.js">
+		<link href="./_app/immutable/assets/2.mCakGI-V.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.BgUZprPF.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.Mw4RVnWS.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.BoIwsIsz.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/paths.94jezCLD.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.ucZ_1-Jr.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.DJfPvLRU.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.CB0NONIR.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.Vh-0Bmuy.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">
+		<div style="display: contents">  <main class="svelte-1rjde25"><a href="#" class="logo svelte-1rjde25" data-svelte-h="svelte-1pzfc2"><img src="logo.svg" alt="" class="svelte-1rjde25"></a> <form action="POST" class="svelte-1rjde25" data-svelte-h="svelte-1ggfgld"><fieldset class="svelte-1rjde25"><label for="" style="--input-icon: url('../../../tel.svg')" class="svelte-1rjde25"><input name="tel" type="tel" placeholder="Введите номер телефона" pattern="\d" class="svelte-1rjde25"></label> <label for="" style="--input-icon: url('../../../password.svg')" class="svelte-1rjde25"><input name="password" type="password" placeholder="Введите пароль" class="svelte-1rjde25"></label> <label for="" class="svelte-1rjde25"><a href="#" class="svelte-1rjde25">Забыли пароль</a></label></fieldset> <fieldset class="svelte-1rjde25"><button class="svelte-1rjde25">Войти</button></fieldset></form> <p class="svelte-1rjde25" data-svelte-h="svelte-b7olfu">Если у вас ещё нет аккаунта<br class="svelte-1rjde25"><a href="#" class="svelte-1rjde25"><strong class="svelte-1rjde25">Зарегистрируйтесь</strong></a></p> <p class="svelte-1rjde25" data-svelte-h="svelte-3dp1er">Установите приложение<br class="svelte-1rjde25"><br class="svelte-1rjde25"> <a href="#" class="svelte-1rjde25"><img src="app-store.svg" alt="" class="svelte-1rjde25"></a> <a href="#" class="svelte-1rjde25"><img src="google-play.svg" alt="" class="svelte-1rjde25"></a></p></main> <footer class="svelte-1rjde25" data-svelte-h="svelte-9sctxz"><menu class="svelte-1rjde25"><a href="#" class="svelte-1rjde25">Информация</a> <a href="#" class="svelte-1rjde25">Вакансии</a> <a href="#" class="svelte-1rjde25">Помощь</a> <a href="#" class="svelte-1rjde25">Конфиденциальность</a> <a href="#" class="svelte-1rjde25">Правила</a> <a href="#" class="svelte-1rjde25">FAQ</a> <a href="#" class="svelte-1rjde25">Прайс-лист</a></menu> <a href="#" class="svelte-1rjde25"><img src="powered.svg" alt="" class="svelte-1rjde25"></a> </footer> 
+			
 			<script>
 				{
-					__sveltekit_zepr7a = {
-						base: "/langame",
+					__sveltekit_978mk4 = {
+						base: new URL(".", location).pathname.slice(0, -1),
 						assets: "/langame"
 					};
 
 					const element = document.currentScript.parentElement;
 
+					const data = [null,null];
+
 					Promise.all([
-						import("/langame/_app/immutable/entry/start.9FJQqDjm.js"),
-						import("/langame/_app/immutable/entry/app.DNOIRRyJ.js")
+						import("./_app/immutable/entry/start.BgUZprPF.js"),
+						import("./_app/immutable/entry/app.ucZ_1-Jr.js")
 					]).then(([kit, app]) => {
-						kit.start(app, element);
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
 					});
 				}
 			</script>
